@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+    
+  <test name="Regression. Groups Example">
+  
+  <groups>
+  <run>
+  <include name = "Smoke"/>
+  <!-- You can also use exclude instead of include -->
+  
+  </run>
+  </groups>
+  
+  <!--	Hello World 
+   		Login API Car Loan Test Case 
+   		Mobile Login Home Loan Test Case 
+   		Web Login Home Loan Test Case 
+   		Mobile Login CreditCard Loan Test Case 
+   -->
+   
+  <classes>
+  <class name="testPackages.Day1"/>
+  <class name = "testPackages.Day2"/>
+  <class name = "testPackages.Day3"/>
+  <class name = "testPackages.Day4"/>
+  <class name = "testPackages.Day5"/>
+  </classes> 
+    </test>
+</suite>
